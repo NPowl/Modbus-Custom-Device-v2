@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="21008000">
 	<Property Name="PrivateNetwork.CycleTime" Type="Int">1000</Property>
 	<Property Name="PrivateNetwork.GUIDTable" Type="Bin">&amp;1#!!!!!!!1!+E!Q`````S"(65F%,V*F:G6S:7ZD:6:B=EZB&lt;75P1W^N=%FU:7V*2!!!$5!$!!&gt;/&gt;7VF=GFD!'A!]&lt;YKPOU!!!!#*UZ*8U2F&gt;'6S&lt;7FO;8.U;7-A4G6U&gt;W^S;S"1=G^W;72F=CZM&gt;GRJ9B./5%&amp;U&gt;(*J9H6U:5RJ=X1O9X2M!#2!5!!#!!!!!26798*J97*M:3"(65F%)'VB=("J&lt;G=!)%"!!!(`````!!)44G^E:3""&gt;(2S;7*V&gt;'5A4'FT&gt;!!"!!-!!!!!!!!!!!</Property>
 	<Property Name="PrivateNetwork.NetworkName" Type="Str">Network_0</Property>
@@ -167,11 +167,7 @@
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
@@ -185,8 +181,6 @@
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
@@ -223,6 +217,7 @@
 				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="Data Access System Explorer.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access System Explorer/Data Access System Explorer.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 			</Item>
 			<Item Name="NationalInstruments.VeriStand.SystemStorage" Type="Document" URL="NationalInstruments.VeriStand.SystemStorage">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -237,6 +232,14 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
+			<Item Name="NI VeriStand - Rename Custom Device Item.vi" Type="VI" URL="../../../../NHR New Build Custom Device/Modbus-Custom-Device-v2/Built/Modbus Master/Modbus Master Configuration.llb/NI VeriStand - Rename Custom Device Item.vi"/>
+			<Item Name="NI VeriStand - Set Item Description.vi" Type="VI" URL="../../../../NHR New Build Custom Device/Modbus-Custom-Device-v2/Built/Modbus Master/Modbus Master Configuration.llb/NI VeriStand - Set Item Description.vi"/>
+			<Item Name="Check Special Tags.vi" Type="VI" URL="../../Built/Modbus Master/Windows/Modbus Master Engine Windows.llb/Check Special Tags.vi"/>
+			<Item Name="Get Text Rect.vi" Type="VI" URL="../../Built/Modbus Master/Modbus Master Configuration.llb/Get Text Rect.vi"/>
+			<Item Name="BuildHelpPath.vi" Type="VI" URL="../../Built/Modbus Master/Modbus Master Configuration.llb/BuildHelpPath.vi"/>
+			<Item Name="GetHelpDir.vi" Type="VI" URL="../../Built/Modbus Master/Modbus Master Configuration.llb/GetHelpDir.vi"/>
+			<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="../../Built/Modbus Master/Windows/Modbus Master Engine Windows.llb/Convert property node font to graphics font.vi"/>
+			<Item Name="Custom Device Channel Type.ctl" Type="VI" URL="../../Built/Modbus Master/Windows/Modbus Master Engine Windows.llb/Custom Device Channel Type.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Debug" Type="Source Distribution">
@@ -278,8 +281,8 @@
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Modbus Master</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E8035317-FDF9-4FC1-9EF0-1450E8CAE472}</Property>
+				<Property Name="Bld_userLogFile" Type="Path">/C/Users/NPowley/OneDrive - NI/Desktop/Modbus Config Build.txt</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Modbus Master</Property>
@@ -289,7 +292,7 @@
 				<Property Name="Destination[2].path" Type="Path">../Built/Modbus Master/Modbus Master Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D5A530D0-DB80-497A-867F-99F75574D560}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{73823E01-F5C8-49D2-9D00-2895820AAD75}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Modbus Master.xml</Property>
@@ -374,13 +377,14 @@
 			<Item Name="Engine Release" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{BDB37E78-1B48-4DD8-B51B-9DFE56743A02}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Release</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../Built/Modbus Master/Windows/Modbus Master Engine Windows.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
-				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Utility/Copy PPL for Target Type.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{32214451-43E2-4D3E-92C8-CE819321FAC4}</Property>
+				<Property Name="Bld_userLogFile" Type="Path">/C/Users/NPowley/OneDrive - NI/Desktop/Modbus Engine Build.txt</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Modbus Master/Windows/Modbus Master Engine Windows.llb</Property>
@@ -388,7 +392,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/Modbus Master/Windows</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{17A2783F-44D3-4043-BA66-DB1372FE344F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A6702B04-24C6-40FC-9990-8473D880F75C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Modbus Master Engine.lvlib/RT Driver VI.vi</Property>

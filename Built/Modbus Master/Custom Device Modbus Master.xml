@@ -27,22 +27,6 @@
 				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Modbus Master\Modbus Master Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 			<Source>
-				<SupportedTarget>Pharlap</SupportedTarget>
-				<Source>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Modbus Master\PharLap\Modbus Master Engine Pharlap.llb\RT Driver VI.vi</Path>
-				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Modbus Master\Modbus Master Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
-			</Source>
-			<Source>
-				<SupportedTarget>Linux_32_ARM</SupportedTarget>
-				<Source>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Modbus Master\Linux_32_ARM\Modbus Master Engine LinuxARM.llb\RT Driver VI.vi</Path>
-				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Modbus Master\Modbus Master Engine LinuxARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
-			</Source>
-			<Source>
 				<SupportedTarget>Linux_x64</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
@@ -62,26 +46,10 @@
 			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Modbus Master\Modbus API.lvlibp</RealTimeSystemDestination>
 		</Dependency>
 		<Dependency>
-			<SupportedTarget>Pharlap</SupportedTarget>
-			<Source>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Modbus Master\Pharlap\Modbus API.lvlibp</Path>
-			</Source>
-			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Modbus Master\Modbus API.lvlibp</RealTimeSystemDestination>
-		</Dependency>
-		<Dependency>
 			<SupportedTarget>Linux_x64</SupportedTarget>
 			<Source>
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Modbus Master\Linux_x64\Modbus API.lvlibp</Path>
-			</Source>
-			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Modbus Master\Modbus API.lvlibp</RealTimeSystemDestination>
-		</Dependency>
-		<Dependency>
-			<SupportedTarget>Linux_32_ARM</SupportedTarget>
-			<Source>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Modbus Master\Linux_32_ARM\Modbus API.lvlibp</Path>
 			</Source>
 			<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Modbus Master\Modbus API.lvlibp</RealTimeSystemDestination>
 		</Dependency>
